@@ -71,7 +71,7 @@ All events now include a built-in notification at **8:30 AM local time** on the 
 https://raw.githubusercontent.com/echo-scramble/trading-holidays-ics/main/Trading-Holidays-2025-2029-Combined.ics
 ```
 
-🚀 **Latest Release:** [Download v3.5.1](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
+🚀 **Latest Release:** [Download v4.0.0](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
 ## Usage
 
