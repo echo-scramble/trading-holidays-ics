@@ -1,13 +1,13 @@
 # Trading Holidays Calendar 2025-2029
 
-A comprehensive iCalendar (.ics) file containing all trading holidays and early closures for US (NYSE/NASDAQ) and German (Xetra/Frankfurt) stock markets from 2025 to 2029.
+A comprehensive iCalendar (.ics) file containing all trading holidays and early closures for US (NYMEX/CME) commodity futures and German (Xetra/Frankfurt) stock markets from 2025 to 2029.
 
 ## Features
 
 ### 📅 Complete Holiday Coverage
-- All official trading holidays for NYSE/NASDAQ
+- All official trading holidays for NYMEX/CME commodity futures
 - All official trading holidays for Xetra/Frankfurt Stock Exchange
-- Early closure days (US markets close at 1:00 PM ET)
+- Early closure days (US futures close at 12:00 PM CT / 1:00 PM ET)
 - No weekend holidays included (markets are closed anyway)
 
 ### 🌍 International Compatibility
@@ -33,6 +33,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - US early closures: `CATEGORIES:US,Early Close`
 - German holidays: `CATEGORIES:DE,Full Day`
 - Combined holidays: `CATEGORIES:US,DE,Full Day`
+- Mixed closures: `CATEGORIES:US,DE,Mixed` (e.g., Christmas Eve: US early, DE closed)
 
 ## Usage
 
@@ -44,7 +45,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 
 ## Holiday Details
 
-### 🇺🇸 US Market Holidays (NYSE/NASDAQ)
+### 🇺🇸 US Market Holidays (NYMEX/CME)
 - New Year's Day
 - Martin Luther King Jr. Day
 - Presidents' Day
@@ -56,10 +57,10 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - Thanksgiving Day
 - Christmas Day
 
-### 🇺🇸 US Early Closures (1:00 PM ET)
+### 🇺🇸 US Early Closures (12:00 PM CT / 1:00 PM ET)
 - Day before Independence Day
 - Black Friday (day after Thanksgiving)
-- Christmas Eve (when Christmas falls on weekday)
+- Christmas Eve (only when Christmas falls on a weekday; if Christmas falls on Saturday, Dec 24 is a full holiday)
 
 ### 🇩🇪 German Market Holidays (Xetra/Frankfurt)
 - Neujahr (New Year's Day)
@@ -82,13 +83,13 @@ When both markets are closed on the same day, entries are combined:
 - **File Format**: iCalendar 2.0 (RFC 5545 compliant)
 - **Character Encoding**: UTF-8
 - **Timezone Definitions**: Includes VTIMEZONE components with DST rules
-- **Event Count**: 81 events (2025-2029)
+- **Event Count**: 78 events (2025-2029)
 - **Transparency**: All events marked as TRANSPARENT (non-blocking)
 
 ## Data Sources
 
 Holiday dates have been verified against:
-- Official NYSE holiday announcements (2025-2027)
+- Official NYMEX/CME holiday announcements (2025-2027)
 - Historical US federal holiday patterns (2028-2029)
 - German public holiday calendar
 - Easter date calculations for moveable holidays
