@@ -38,9 +38,26 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - Combined holidays: `CATEGORIES:DE,US,Full Day` (v3.0.0: DE-first)
 - Mixed closures: `CATEGORIES:DE,US,Mixed` (e.g., Christmas Eve: DE closed, US early)
 
+## Quick Subscribe
+
+📅 **Direct calendar subscription link:**
+```
+https://raw.githubusercontent.com/echo-scramble/trading-holidays-ics/main/Trading-Holidays-2025-2029-Combined.ics
+```
+
+🚀 **Latest Release:** [Download v3.0.0](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
+
 ## Usage
 
-1. Download the `Trading-Holidays-2025-2029-Combined.ics` file
+### Option 1: Subscribe to Live Updates
+1. Copy the subscription link above
+2. Add to your calendar app:
+   - **Apple Calendar**: File → New Calendar Subscription
+   - **Google Calendar**: Other calendars → From URL
+   - **Outlook**: Add calendar → Subscribe from web
+
+### Option 2: Download and Import
+1. Download the [latest release](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 2. Import into your calendar application:
    - **Apple Calendar**: Double-click the file or File → Import
    - **Google Calendar**: Settings → Import & Export → Import
