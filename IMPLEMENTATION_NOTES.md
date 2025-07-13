@@ -2,6 +2,17 @@
 
 ## Version History
 
+### v3.5.1 (2025-01-13)
+- **Bug Fix**: Corrected notification timing to 8:30 AM on event day
+- Changed TRIGGER from `-PT15H30M` to `PT8H30M`
+- Previous version incorrectly notified day before event
+
+### v3.5.0 (2025-01-13)
+- **New Feature**: Added VALARM components to all 78 events
+- Notifications at 8:30 AM local time on trading holidays
+- Users can disable via "Remove Alerts" option when subscribing
+- File size increased from 23KB to 32KB
+
 ### v3.0.0 (2025-01-13)
 - **Major Change**: DE-first ordering for all mixed market events
 - Changed CATEGORIES order from `US,DE` to `DE,US` for all combined events
@@ -60,6 +71,11 @@ SUMMARY:🇩🇪 Holiday Name - Status      # Flag + Space + Name + Status (DE-f
 DESCRIPTION:Clear description         # What's closed/when
 CATEGORIES:XX,Status                  # DE/US/both + Full Day/Early Close/Mixed (DE-first)
 TRANSP:TRANSPARENT                    # Non-blocking in calendars
+BEGIN:VALARM                          # Notification component (v3.5.0+)
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M                       # 8:30 AM on event day (8.5 hours after midnight)
+END:VALARM
 END:VEVENT
 ```
 
@@ -75,7 +91,15 @@ END:VEVENT
 - Include VTIMEZONE definitions for both America/New_York and Europe/Berlin
 - Early close times should reference both CT and ET in description
 
-### 8. Data Validation Checklist
+### 8. Notification Implementation (v3.5.0+)
+- **VALARM Component**: Added to all 78 events
+- **Trigger Time**: `PT8H30M` = 8.5 hours after event start (00:00)
+- **Local Time**: Notifications appear at 8:30 AM in user's timezone
+- **User Control**: Can be disabled via "Remove Alerts" in calendar apps
+- **Compatibility**: Works with Apple Calendar, Google Calendar, Outlook
+- **Important**: Do NOT use negative trigger (e.g., `-PT15H30M`) as it calculates from day before
+
+### 9. Data Validation Checklist
 Before release, verify:
 1. Total event count matches documentation
 2. No events on weekends (use `date -d YYYYMMDD` to check)
