@@ -68,7 +68,7 @@ Before release, verify:
 4. All German holidays are in the official 8-holiday list
 5. US observance rules correctly applied
 6. Easter-based holidays calculated correctly
-7. July 3rd early close only when July 4th falls on weekday (Note: July 2, 2026 is correct for NYMEX)
+7. July 3rd early close when July 4th falls on weekday; July 2nd early close when July 4th falls on Saturday (NYMEX/CME specific)
 8. Consistent handling of "mixed" closure days (e.g., Christmas Eve)
 
 ### 9. Easter Calculation
@@ -78,7 +78,18 @@ Easter moves each year. Key dates:
 - Ascension Day: 39 days after Easter (NOT a market holiday!)
 - Whit Monday: 50 days after Easter (NOT a market holiday!)
 
-### 10. Testing Commands
+### 10. NYMEX/CME Specific Rules
+- July 2nd is an early close when July 4th falls on Saturday (differs from NYSE)
+- Early close is at 12:00 PM CT (Central Time) / 1:00 PM ET
+- Commodity futures markets may have different holiday rules than equity markets
+
+### 11. Mixed Market Types
+- This calendar combines commodity futures (US) with stock markets (German)
+- Always specify market type in descriptions to avoid confusion
+- US: "commodity futures markets"
+- DE: "stock markets"
+
+### 12. Testing Commands
 ```bash
 # Count events
 grep -c "BEGIN:VEVENT" calendar.ics
