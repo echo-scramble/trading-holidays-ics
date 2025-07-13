@@ -1,6 +1,15 @@
-# Implementation Notes for Trading Holiday Calendars (NYMEX/CME Focus)
+# Implementation Notes for Trading Holiday Calendars (NYMEX/CME, Xetra, ICE Focus)
 
 ## Version History
+
+### v4.0.0 (2025-07-13)
+- **Major Feature**: Added ICE Futures Europe (UK) market support
+- Properly integrated UK holidays with existing US/DE events
+- Added 13 unique UK-only events (Early May and Summer Bank Holidays)
+- Added Europe/London timezone definition
+- Combined overlapping holidays (Good Friday, Christmas, Memorial Day/Spring Bank, etc.)
+- Total events increased from 78 to 91 (not 118 - avoiding duplicates)
+- Data source: ICE Circular 24/132 (20 November 2024) for 2025
 
 ### v3.5.1 (2025-07-13)
 - **Bug Fix**: Corrected notification timing to 8:30 AM on event day
@@ -39,6 +48,17 @@
 - ❌ Fronleichnam (Corpus Christi)
 - ❌ Reformationstag (Reformation Day)
 - ❌ Allerheiligen (All Saints' Day)
+
+### 1a. UK/ICE Market Holidays - Bank Holidays for England & Wales
+**IMPORTANT**: Only these 8 days are ICE Futures Europe holidays:
+- New Year's Day, Good Friday, Easter Monday, Early May Bank Holiday,
+- Spring Bank Holiday, Summer Bank Holiday, Christmas Day, Boxing Day
+
+**NOT market holidays** (Northern Ireland/Scotland specific):
+- ❌ St Patrick's Day (March 17 - Northern Ireland)
+- ❌ 2nd January (Scotland only)
+- ❌ St Andrew's Day (November 30 - Scotland)
+- ❌ July 12 (Northern Ireland only)
 
 ### 2. US Holiday Observance Rules (NYMEX/CME)
 When holidays fall on weekends:
@@ -83,13 +103,15 @@ END:VEVENT
 - `US,Full Day`: US commodity futures markets closed all day
 - `US,Early Close`: US commodity futures markets close at 12 PM CT / 1 PM ET
 - `DE,Full Day`: German stock markets closed all day
+- `ICE - UK,Full Day`: ICE Futures Europe (Brent) closed all day
 - `DE,US,Full Day`: German stock markets and US futures closed all day (v3.0.0+)
 - `DE,US,Mixed`: Different closure types (e.g., DE full, US early) (v3.0.0+)
 
 ### 7. Timezone Handling
 - All-day events use `VALUE=DATE` (no timezone needed)
-- Include VTIMEZONE definitions for both America/New_York and Europe/Berlin
+- Include VTIMEZONE definitions for America/New_York, Europe/Berlin, and Europe/London
 - Early close times should reference both CT and ET in description
+- UK timezone uses Europe/London (handles BST/GMT transitions)
 
 ### 8. Notification Implementation (v3.5.0+)
 - **VALARM Component**: Added to all 78 events
@@ -123,10 +145,11 @@ Easter moves each year. Key dates:
 - Commodity futures markets may have different holiday rules than equity markets
 
 ### 11. Mixed Market Types
-- This calendar combines commodity futures (US) with stock markets (German)
+- This calendar combines commodity futures (US), stock markets (German), and energy futures (UK)
 - Always specify market type in descriptions to avoid confusion
 - US: "commodity futures markets"
 - DE: "stock markets"
+- UK: "ICE Futures Europe (Brent)"
 
 ### 12. Testing Commands
 ```bash
@@ -156,8 +179,10 @@ grep -E "(Himmelfahrt|Pfingstmontag|Deutschen Einheit)" calendar.ics
 ## Sources for Verification
 - NYMEX/CME: Official CME Group holiday calendar
 - Xetra: deutsche-boerse.com trading calendar (only 8 holidays per year!)
+- ICE Futures Europe: ICE Circulars (e.g., Circular 24/132 for 2025)
 - Easter dates: astronomical calculations or established tables
 - Federal holidays: Vary by year due to observance rules
+- UK bank holidays: gov.uk/bank-holidays (England & Wales only)
 
 ## Additional Notes
 1. **Never trust Wikipedia** for market holidays - use official exchange sources

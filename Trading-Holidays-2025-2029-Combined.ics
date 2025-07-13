@@ -44,6 +44,25 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/London
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250101
 DTSTAMP:20250713T000000Z
@@ -90,13 +109,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250418
 DTSTAMP:20250713T000000Z
 UID:20250418-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Karfreitag / Good Friday - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -104,13 +123,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250421
 DTSTAMP:20250713T000000Z
 UID:20250421-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Ostermontag (Easter Monday) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 Ostermontag / Easter Monday - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -132,13 +151,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250526
 DTSTAMP:20250713T000000Z
 UID:20250526-us-closed@trading-holidays.com
-SUMMARY:🇺🇸 Memorial Day - Closed
-DESCRIPTION:US commodity futures markets closed all day
-CATEGORIES:US,Full Day
+SUMMARY:🇺🇸🇬🇧 Memorial Day / Spring Bank Holiday - Closed
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -244,13 +263,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251225
 DTSTAMP:20250713T000000Z
 UID:20251225-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 1. Weihnachtstag / Christmas Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -258,13 +277,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251226
 DTSTAMP:20250713T000000Z
 UID:20251226-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 2. Weihnachtstag (Boxing Day) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 2. Weihnachtstag / Boxing Day - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -286,13 +305,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260101
 DTSTAMP:20250713T000000Z
 UID:20260101-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Neujahr / New Year's Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Neujahr / New Year's Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -328,13 +347,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260403
 DTSTAMP:20250713T000000Z
 UID:20260403-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Karfreitag / Good Friday - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -342,13 +361,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260406
 DTSTAMP:20250713T000000Z
 UID:20260406-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Ostermontag (Easter Monday) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 Ostermontag / Easter Monday - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -370,13 +389,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260525
 DTSTAMP:20250713T000000Z
 UID:20260525-us-closed@trading-holidays.com
-SUMMARY:🇺🇸 Memorial Day - Closed
-DESCRIPTION:US commodity futures markets closed all day
-CATEGORIES:US,Full Day
+SUMMARY:🇺🇸🇬🇧 Memorial Day / Spring Bank Holiday - Closed
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -482,13 +501,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261225
 DTSTAMP:20250713T000000Z
 UID:20261225-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 1. Weihnachtstag / Christmas Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -510,13 +529,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270101
 DTSTAMP:20250713T000000Z
 UID:20270101-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Neujahr / New Year's Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Neujahr / New Year's Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -552,13 +571,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270326
 DTSTAMP:20250713T000000Z
 UID:20270326-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Karfreitag / Good Friday - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -566,13 +585,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270329
 DTSTAMP:20250713T000000Z
 UID:20270329-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Ostermontag (Easter Monday) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 Ostermontag / Easter Monday - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -580,13 +599,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270531
 DTSTAMP:20250713T000000Z
 UID:20270531-us-closed@trading-holidays.com
-SUMMARY:🇺🇸 Memorial Day - Closed
-DESCRIPTION:US commodity futures markets closed all day
-CATEGORIES:US,Full Day
+SUMMARY:🇺🇸🇬🇧 Memorial Day / Spring Bank Holiday - Closed
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -734,13 +753,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20280414
 DTSTAMP:20250713T000000Z
 UID:20280414-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Karfreitag / Good Friday - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -748,13 +767,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20280417
 DTSTAMP:20250713T000000Z
 UID:20280417-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Ostermontag (Easter Monday) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 Ostermontag / Easter Monday - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -762,13 +781,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20280501
 DTSTAMP:20250713T000000Z
 UID:20280501-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Tag der Arbeit (Labour Day) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 Tag der Arbeit / Early May Bank Holiday - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -776,13 +795,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20280529
 DTSTAMP:20250713T000000Z
 UID:20280529-us-closed@trading-holidays.com
-SUMMARY:🇺🇸 Memorial Day - Closed
-DESCRIPTION:US commodity futures markets closed all day
-CATEGORIES:US,Full Day
+SUMMARY:🇺🇸🇬🇧 Memorial Day / Spring Bank Holiday - Closed
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -874,13 +893,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20281225
 DTSTAMP:20250713T000000Z
 UID:20281225-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 1. Weihnachtstag / Christmas Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -888,13 +907,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20281226
 DTSTAMP:20250713T000000Z
 UID:20281226-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 2. Weihnachtstag (Boxing Day) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 2. Weihnachtstag / Boxing Day - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -902,13 +921,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290101
 DTSTAMP:20250713T000000Z
 UID:20290101-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Neujahr / New Year's Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Neujahr / New Year's Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -944,13 +963,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290330
 DTSTAMP:20250713T000000Z
 UID:20290330-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 Karfreitag / Good Friday - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -958,13 +977,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290402
 DTSTAMP:20250713T000000Z
 UID:20290402-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Ostermontag (Easter Monday) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 Ostermontag / Easter Monday - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -986,13 +1005,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290528
 DTSTAMP:20250713T000000Z
 UID:20290528-us-closed@trading-holidays.com
-SUMMARY:🇺🇸 Memorial Day - Closed
-DESCRIPTION:US commodity futures markets closed all day
-CATEGORIES:US,Full Day
+SUMMARY:🇺🇸🇬🇧 Memorial Day / Spring Bank Holiday - Closed
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -1098,13 +1117,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20291225
 DTSTAMP:20250713T000000Z
 UID:20291225-us-de-closed@trading-holidays.com
-SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:German stock markets and US commodity futures markets closed all day
-CATEGORIES:DE,US,Full Day
+SUMMARY:🇩🇪🇺🇸🇬🇧 1. Weihnachtstag / Christmas Day - Closed
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,US,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and US commodity futures markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -1112,13 +1131,13 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20291226
 DTSTAMP:20250713T000000Z
 UID:20291226-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 2. Weihnachtstag (Boxing Day) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+SUMMARY:🇩🇪🇬🇧 2. Weihnachtstag / Boxing Day - Closed
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
+CATEGORIES:DE,ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
 TRIGGER:PT8H30M
 END:VALARM
 END:VEVENT
@@ -1129,6 +1148,188 @@ UID:20291231-de-closed@trading-holidays.com
 SUMMARY:🇩🇪 Silvester (New Year's Eve) - Geschlossen
 DESCRIPTION:German stock markets closed all day
 CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250101
+DTSTAMP:20250713T000000Z
+UID:20250101-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: New Year's Day - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250505
+DTSTAMP:20250713T000000Z
+UID:20250505-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Early May Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250825
+DTSTAMP:20250713T000000Z
+UID:20250825-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Summer Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DTSTAMP:20250713T000000Z
+UID:20260504-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Early May Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260831
+DTSTAMP:20250713T000000Z
+UID:20260831-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Summer Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270503
+DTSTAMP:20250713T000000Z
+UID:20270503-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Early May Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270830
+DTSTAMP:20250713T000000Z
+UID:20270830-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Summer Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271227
+DTSTAMP:20250713T000000Z
+UID:20271227-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Christmas Day - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271228
+DTSTAMP:20250713T000000Z
+UID:20271228-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Boxing Day - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20280103
+DTSTAMP:20250713T000000Z
+UID:20280103-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: New Year's Day - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20280828
+DTSTAMP:20250713T000000Z
+UID:20280828-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Summer Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290507
+DTSTAMP:20250713T000000Z
+UID:20290507-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Early May Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Trading Holiday: Markets closed today
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290827
+DTSTAMP:20250713T000000Z
+UID:20290827-ice-uk-closed@trading-holidays.com
+SUMMARY:🇬🇧 ICE: Summer Bank Holiday - Closed
+DESCRIPTION:ICE Futures Europe (Brent) closed all day
+CATEGORIES:ICE - UK,Full Day
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
