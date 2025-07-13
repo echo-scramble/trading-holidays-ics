@@ -7,7 +7,7 @@ All notable changes to the Trading Holidays Calendar will be documented in this 
 - Added: Europe/London timezone definition for BST/GMT transitions
 - Added: UK market to combined events (Good Friday, Christmas, etc.)
 - Added: 13 unique UK-only events (Early May and Summer Bank Holidays)
-- Changed: Total event count increased from 78 to 91
+- Changed: Total event count increased from 78 to 101
 - Changed: Updated combined events to show 🇩🇪🇺🇸🇬🇧 or 🇩🇪🇬🇧 or 🇺🇸🇬🇧
 - Changed: Categories now include `ICE - UK` in combined events
 - Fixed: Properly combined overlapping holidays instead of duplicating

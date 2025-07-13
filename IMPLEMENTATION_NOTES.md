@@ -8,7 +8,7 @@
 - Added 13 unique UK-only events (Early May and Summer Bank Holidays)
 - Added Europe/London timezone definition
 - Combined overlapping holidays (Good Friday, Christmas, Memorial Day/Spring Bank, etc.)
-- Total events increased from 78 to 91 (not 118 - avoiding duplicates)
+- Total events increased from 78 to 101 (not 118 - avoiding duplicates)
 - Data source: ICE Circular 24/132 (20 November 2024) for 2025
 
 ### v3.5.1 (2025-07-13)
