@@ -2,6 +2,20 @@
 
 All notable changes to the Trading Holidays Calendar will be documented in this file.
 
+## [4.0.2] - 2025-01-13
+
+### Changed
+- **REMOVED** Tag der Deutschen Einheit (Oct 3, 2027) - Not a stock exchange holiday
+- Converted Early Close events to All-Day format (VALUE=DATE) for better calendar integration
+- Combined Dec 24 events: Single entry showing "DE Closed, US Early Close 1PM"
+- Updated PRODID to v4.0.1 for proper versioning
+- Total events decreased from 102 to 97
+
+### Fixed  
+- Added missing flag emojis (🇩🇪🇬🇧🇺🇸) to all event summaries
+- Corrected VALARM text for Early Close events: "Markets close early at 1:00 PM ET"
+- Eliminated duplicate calendar entries for days with mixed closures
+
 ## [4.0.1] - 2025-01-13
 
 ### Fixed

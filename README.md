@@ -1,8 +1,8 @@
-# 📅 Trading Holidays Calendar 2025-2029 (v4.0.0)
+# 📅 Trading Holidays Calendar 2025-2029 (v4.0.2)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
-![Events](https://img.shields.io/badge/events-102-orange.svg)
+![Events](https://img.shields.io/badge/events-97-orange.svg)
 ![Markets](https://img.shields.io/badge/markets-NYMEX%20%7C%20CME%20%7C%20Xetra%20%7C%20ICE-red.svg)
 [![GitHub Release](https://img.shields.io/github/v/release/echo-scramble/trading-holidays-ics)](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
@@ -140,7 +140,7 @@ When multiple markets are closed on the same day, entries are combined:
 - **File Format**: iCalendar 2.0 (RFC 5545 compliant)
 - **Character Encoding**: UTF-8
 - **Timezone Definitions**: Includes VTIMEZONE components with DST rules
-- **Event Count**: 102 events (2025-2029)
+- **Event Count**: 97 events (2025-2029)
 - **Transparency**: All events marked as TRANSPARENT (non-blocking)
 
 ## Data Sources
