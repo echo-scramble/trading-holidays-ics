@@ -2,6 +2,18 @@
 
 All notable changes to the Trading Holidays Calendar will be documented in this file.
 
+## [4.0.4] - 2025-01-13
+
+### Fixed
+- Updated PRODID to v4.0.4 to match release version
+- Removed '-mixed' suffix from UIDs (was: `20251224-de-us-mixed@`, now: `20251224-de-us@`)
+- Verified all 97 events have flag emojis in SUMMARY lines
+
+### Technical Details
+- All UIDs now follow consistent pattern: `{date}-{countries}@trading-holidays.com`
+- PRODID properly incremented for each release
+- No more legacy suffixes in identifiers
+
 ## [4.0.3] - 2025-01-13
 
 ### Fixed

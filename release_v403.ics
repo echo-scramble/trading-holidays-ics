@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Trading Holidays//Calendar v4.0.4//EN
+PRODID:-//Trading Holidays//Calendar v4.0.3//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Trading Holidays 2025-2029
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
 DTSTAMP:20250713T233513Z
-UID:20251224-de-us@trading-holidays.com
+UID:20251224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
@@ -575,7 +575,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
 DTSTAMP:20250713T233513Z
-UID:20261224-de-us@trading-holidays.com
+UID:20261224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
@@ -1175,7 +1175,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20281224
 DTSTAMP:20250713T233513Z
-UID:20281224-de-us@trading-holidays.com
+UID:20281224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
@@ -1460,7 +1460,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20291224
 DTSTAMP:20250713T233513Z
-UID:20291224-de-us@trading-holidays.com
+UID:20291224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
