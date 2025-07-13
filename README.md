@@ -30,6 +30,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 
 ### Event Categories
 - US holidays: `CATEGORIES:US,Full Day`
+- US early closures: `CATEGORIES:US,Early Close`
 - German holidays: `CATEGORIES:DE,Full Day`
 - Combined holidays: `CATEGORIES:US,DE,Full Day`
 
