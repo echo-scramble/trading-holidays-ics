@@ -1,4 +1,4 @@
-# 📅 Trading Holidays Calendar 2025-2029 (v3.0.0)
+# 📅 Trading Holidays Calendar 2025-2029 (v3.5.0)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
@@ -44,6 +44,24 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - Combined holidays: `CATEGORIES:DE,US,Full Day` (v3.0.0: DE-first)
 - Mixed closures: `CATEGORIES:DE,US,Mixed` (e.g., Christmas Eve: DE closed, US early)
 
+## 🔔 Notifications (New in v3.5.0)
+
+All events now include a built-in notification at **8:30 AM local time** on the holiday. 
+
+### Managing Notifications in Apple Calendar
+
+**When subscribing:**
+- File → New Calendar Subscription
+- After entering the URL, look for: **"Remove Alerts"**
+- ✅ Toggle ON to disable all notifications
+- ❌ Toggle OFF to receive 8:30 AM alerts
+
+**On iOS/iPadOS:**
+- Settings → Calendar → Accounts → Add Account → Other → Add Subscribed Calendar
+- Same "Remove Alerts" option available
+
+**Note:** Subscribed calendars are read-only. You cannot modify individual alert times.
+
 ## Quick Subscribe
 
 📅 **Direct calendar subscription link:**
@@ -51,7 +69,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 https://raw.githubusercontent.com/echo-scramble/trading-holidays-ics/main/Trading-Holidays-2025-2029-Combined.ics
 ```
 
-🚀 **Latest Release:** [Download v3.0.0](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
+🚀 **Latest Release:** [Download v3.5.0](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
 ## Usage
 
