@@ -76,7 +76,7 @@ DTSTART;VALUE=DATE:20250418
 DTSTAMP:20250713T000000Z
 UID:20250418-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -166,7 +166,7 @@ DTSTART;VALUE=DATE:20251224
 DTSTAMP:20250713T000000Z
 UID:20251224-us-de@trading-holidays.com
 SUMMARY:🇩🇪 Heiligabend & 🇺🇸 Christmas Eve (Early 1PM) - Mixed
-DESCRIPTION:US commodity futures markets close early (12:00 PM CT / 1:00 PM ET); German stock markets closed all day
+DESCRIPTION:German stock markets closed all day; US commodity futures markets close early (12:00 PM CT / 1:00 PM ET)
 CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -175,7 +175,7 @@ DTSTART;VALUE=DATE:20251225
 DTSTAMP:20250713T000000Z
 UID:20251225-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -202,7 +202,7 @@ DTSTART;VALUE=DATE:20260101
 DTSTAMP:20250713T000000Z
 UID:20260101-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Neujahr / New Year's Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -229,7 +229,7 @@ DTSTART;VALUE=DATE:20260403
 DTSTAMP:20250713T000000Z
 UID:20260403-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -319,7 +319,7 @@ DTSTART;VALUE=DATE:20261224
 DTSTAMP:20250713T000000Z
 UID:20261224-us-de@trading-holidays.com
 SUMMARY:🇩🇪 Heiligabend & 🇺🇸 Christmas Eve (Early 1PM) - Mixed
-DESCRIPTION:US commodity futures markets close early (12:00 PM CT / 1:00 PM ET); German stock markets closed all day
+DESCRIPTION:German stock markets closed all day; US commodity futures markets close early (12:00 PM CT / 1:00 PM ET)
 CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -328,7 +328,7 @@ DTSTART;VALUE=DATE:20261225
 DTSTAMP:20250713T000000Z
 UID:20261225-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -346,7 +346,7 @@ DTSTART;VALUE=DATE:20270101
 DTSTAMP:20250713T000000Z
 UID:20270101-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Neujahr / New Year's Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -373,7 +373,7 @@ DTSTART;VALUE=DATE:20270326
 DTSTAMP:20250713T000000Z
 UID:20270326-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -454,7 +454,7 @@ DTSTART;VALUE=DATE:20271224
 DTSTAMP:20250713T000000Z
 UID:20271224-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪 Heiligabend & 🇺🇸 Christmas Day (Observed) - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -463,7 +463,7 @@ DTSTART;VALUE=DATE:20271231
 DTSTAMP:20250713T000000Z
 UID:20271231-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪 Silvester & 🇺🇸 New Year's Day (Observed) - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -490,7 +490,7 @@ DTSTART;VALUE=DATE:20280414
 DTSTAMP:20250713T000000Z
 UID:20280414-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -580,7 +580,7 @@ DTSTART;VALUE=DATE:20281225
 DTSTAMP:20250713T000000Z
 UID:20281225-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -598,7 +598,7 @@ DTSTART;VALUE=DATE:20290101
 DTSTAMP:20250713T000000Z
 UID:20290101-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Neujahr / New Year's Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -625,7 +625,7 @@ DTSTART;VALUE=DATE:20290330
 DTSTAMP:20250713T000000Z
 UID:20290330-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 Karfreitag / Good Friday - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -715,7 +715,7 @@ DTSTART;VALUE=DATE:20291224
 DTSTAMP:20250713T000000Z
 UID:20291224-us-de@trading-holidays.com
 SUMMARY:🇩🇪 Heiligabend & 🇺🇸 Christmas Eve (Early 1PM) - Mixed
-DESCRIPTION:US commodity futures markets close early (12:00 PM CT / 1:00 PM ET); German stock markets closed all day
+DESCRIPTION:German stock markets closed all day; US commodity futures markets close early (12:00 PM CT / 1:00 PM ET)
 CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -724,7 +724,7 @@ DTSTART;VALUE=DATE:20291225
 DTSTAMP:20250713T000000Z
 UID:20291225-us-de-closed@trading-holidays.com
 SUMMARY:🇩🇪🇺🇸 1. Weihnachtstag / Christmas Day - Closed
-DESCRIPTION:US commodity futures markets and German stock markets closed all day
+DESCRIPTION:German stock markets and US commodity futures markets closed all day
 CATEGORIES:DE,US,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
