@@ -1,4 +1,4 @@
-# 📅 Trading Holidays Calendar 2025-2029 (v3.5.0)
+# 📅 Trading Holidays Calendar 2025-2029 (v3.5.1)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
@@ -44,7 +44,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - Combined holidays: `CATEGORIES:DE,US,Full Day` (v3.0.0: DE-first)
 - Mixed closures: `CATEGORIES:DE,US,Mixed` (e.g., Christmas Eve: DE closed, US early)
 
-## 🔔 Notifications (New in v3.5.0)
+## 🔔 Notifications (New in v3.5.1)
 
 All events now include a built-in notification at **8:30 AM local time** on the holiday. 
 
@@ -69,7 +69,7 @@ All events now include a built-in notification at **8:30 AM local time** on the 
 https://raw.githubusercontent.com/echo-scramble/trading-holidays-ics/main/Trading-Holidays-2025-2029-Combined.ics
 ```
 
-🚀 **Latest Release:** [Download v3.5.0](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
+🚀 **Latest Release:** [Download v3.5.1](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
 ## Usage
 
