@@ -1,4 +1,10 @@
-# Trading Holidays Calendar 2025-2029 (v3.0.0)
+# 📅 Trading Holidays Calendar 2025-2029 (v3.0.0)
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
+![Events](https://img.shields.io/badge/events-78-orange.svg)
+![Markets](https://img.shields.io/badge/markets-NYMEX%20%7C%20CME%20%7C%20Xetra-red.svg)
+[![GitHub Release](https://img.shields.io/github/v/release/echo-scramble/trading-holidays-ics)](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
 A comprehensive iCalendar (.ics) file containing all trading holidays and early closures for US (NYMEX/CME) commodity futures and German (Xetra/Frankfurt) stock markets from 2025 to 2029.
 
