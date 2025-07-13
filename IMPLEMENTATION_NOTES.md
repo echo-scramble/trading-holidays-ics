@@ -2,18 +2,18 @@
 
 ## Version History
 
-### v3.5.1 (2025-01-13)
+### v3.5.1 (2025-07-13)
 - **Bug Fix**: Corrected notification timing to 8:30 AM on event day
 - Changed TRIGGER from `-PT15H30M` to `PT8H30M`
 - Previous version incorrectly notified day before event
 
-### v3.5.0 (2025-01-13)
+### v3.5.0 (2025-07-13)
 - **New Feature**: Added VALARM components to all 78 events
 - Notifications at 8:30 AM local time on trading holidays
 - Users can disable via "Remove Alerts" option when subscribing
 - File size increased from 23KB to 32KB
 
-### v3.0.0 (2025-01-13)
+### v3.0.0 (2025-07-13)
 - **Major Change**: DE-first ordering for all mixed market events
 - Changed CATEGORIES order from `US,DE` to `DE,US` for all combined events
 - Updated flag order in SUMMARY to consistently show 🇩🇪 first
