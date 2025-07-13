@@ -1,4 +1,4 @@
-# Trading Holidays Calendar 2025-2029
+# Trading Holidays Calendar 2025-2029 (v3.0.0)
 
 A comprehensive iCalendar (.ics) file containing all trading holidays and early closures for US (NYMEX/CME) commodity futures and German (Xetra/Frankfurt) stock markets from 2025 to 2029.
 
@@ -18,6 +18,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 ### 🎯 Optimized Display
 - Holiday names appear first for better visibility in calendar views
 - Country flags (🇺🇸 🇩🇪) for quick visual identification
+- 🇩🇪 German market listed first in all combined events (v3.0.0)
 - Combined entries for holidays affecting both markets
 - Clear status indicators (Closed, Early Close 1PM, Geschlossen)
 - Clear market type indicators (commodity futures vs. stock markets)
@@ -26,15 +27,16 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 
 ### Holiday Title Structure
 - Single market: `🇺🇸 Memorial Day - Closed`
-- Combined markets: `🇺🇸🇩🇪 Good Friday / Karfreitag - Closed`
+- Combined markets: `🇩🇪🇺🇸 Karfreitag / Good Friday - Closed` (v3.0.0: DE-first)
 - Early closure: `🇺🇸 Black Friday - Early Close 1PM`
+- Mixed closure: `🇩🇪 Heiligabend & 🇺🇸 Christmas Eve (Early 1PM) - Mixed`
 
 ### Event Categories
 - US holidays: `CATEGORIES:US,Full Day`
 - US early closures: `CATEGORIES:US,Early Close`
 - German holidays: `CATEGORIES:DE,Full Day`
-- Combined holidays: `CATEGORIES:US,DE,Full Day`
-- Mixed closures: `CATEGORIES:US,DE,Mixed` (e.g., Christmas Eve: US early, DE closed)
+- Combined holidays: `CATEGORIES:DE,US,Full Day` (v3.0.0: DE-first)
+- Mixed closures: `CATEGORIES:DE,US,Mixed` (e.g., Christmas Eve: DE closed, US early)
 
 ## Usage
 
@@ -74,11 +76,11 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - 2. Weihnachtstag (Boxing Day)
 - Silvester (New Year's Eve)
 
-### 🇺🇸🇩🇪 Combined Holidays
+### 🇩🇪🇺🇸 Combined Holidays
 When both markets are closed on the same day, entries are combined:
-- Good Friday / Karfreitag
-- Christmas Day / 1. Weihnachtstag
-- New Year's Day / Neujahr
+- Karfreitag / Good Friday
+- 1. Weihnachtstag / Christmas Day
+- Neujahr / New Year's Day
 
 ## Technical Details
 
