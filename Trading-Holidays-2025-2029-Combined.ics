@@ -164,19 +164,10 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
 DTSTAMP:20250713T000000Z
-UID:20251224-us-early@trading-holidays.com
-SUMMARY:🇺🇸 Christmas Eve - Early Close 1PM
-DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Early Close
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DTSTAMP:20250713T000000Z
-UID:20251224-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Heiligabend (Christmas Eve) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+UID:20251224-us-de@trading-holidays.com
+SUMMARY:🇺🇸 Christmas Eve (Early 1PM) & 🇩🇪 Heiligabend - Mixed
+DESCRIPTION:US stock markets close at 1:00 PM ET; German stock markets closed all day
+CATEGORIES:US,DE,Mixed
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -326,19 +317,10 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
 DTSTAMP:20250713T000000Z
-UID:20261224-us-early@trading-holidays.com
-SUMMARY:🇺🇸 Christmas Eve - Early Close 1PM
-DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Early Close
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261224
-DTSTAMP:20250713T000000Z
-UID:20261224-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Heiligabend (Christmas Eve) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+UID:20261224-us-de@trading-holidays.com
+SUMMARY:🇺🇸 Christmas Eve (Early 1PM) & 🇩🇪 Heiligabend - Mixed
+DESCRIPTION:US stock markets close at 1:00 PM ET; German stock markets closed all day
+CATEGORIES:US,DE,Mixed
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -731,19 +713,10 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20291224
 DTSTAMP:20250713T000000Z
-UID:20291224-us-early@trading-holidays.com
-SUMMARY:🇺🇸 Christmas Eve - Early Close 1PM
-DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Early Close
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20291224
-DTSTAMP:20250713T000000Z
-UID:20291224-de-closed@trading-holidays.com
-SUMMARY:🇩🇪 Heiligabend (Christmas Eve) - Geschlossen
-DESCRIPTION:German stock markets closed all day
-CATEGORIES:DE,Full Day
+UID:20291224-us-de@trading-holidays.com
+SUMMARY:🇺🇸 Christmas Eve (Early 1PM) & 🇩🇪 Heiligabend - Mixed
+DESCRIPTION:US stock markets close at 1:00 PM ET; German stock markets closed all day
+CATEGORIES:US,DE,Mixed
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
