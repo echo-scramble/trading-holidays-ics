@@ -122,7 +122,7 @@ DTSTAMP:20250713T000000Z
 UID:20250703-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Independence Day Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -158,7 +158,7 @@ DTSTAMP:20250713T000000Z
 UID:20251128-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Black Friday - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -167,7 +167,7 @@ DTSTAMP:20250713T000000Z
 UID:20251224-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Christmas Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -264,9 +264,9 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260525
 DTSTAMP:20250713T000000Z
 UID:20260525-us-closed@trading-holidays.com
-SUMMARY:🇺🇸 Memorial Day - Closed
-DESCRIPTION:US stock markets closed all day
-CATEGORIES:US,Full Day
+SUMMARY:🇺🇸🇩🇪 Memorial Day / Pfingstmontag (Whit Monday) - Closed
+DESCRIPTION:US and German stock markets closed all day
+CATEGORIES:US,DE,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -284,7 +284,7 @@ DTSTAMP:20250713T000000Z
 UID:20260702-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Independence Day Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -320,7 +320,7 @@ DTSTAMP:20250713T000000Z
 UID:20261127-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Black Friday - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -329,7 +329,7 @@ DTSTAMP:20250713T000000Z
 UID:20261224-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Christmas Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -428,7 +428,7 @@ DTSTAMP:20250713T000000Z
 UID:20270702-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Independence Day Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -464,14 +464,14 @@ DTSTAMP:20250713T000000Z
 UID:20271126-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Black Friday - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271224
 DTSTAMP:20250713T000000Z
 UID:20271224-us-de-closed@trading-holidays.com
-SUMMARY:🇺🇸🇩🇪 Christmas (Observed) / Heiligabend (Christmas Eve) - Closed
+SUMMARY:🇺🇸 Christmas Day (Observed) & 🇩🇪 Heiligabend - Closed
 DESCRIPTION:US and German stock markets closed all day
 CATEGORIES:US,DE,Full Day
 TRANSP:TRANSPARENT
@@ -480,7 +480,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271231
 DTSTAMP:20250713T000000Z
 UID:20271231-us-de-closed@trading-holidays.com
-SUMMARY:🇺🇸🇩🇪 New Year's Day (Observed) / Silvester (New Year's Eve) - Closed
+SUMMARY:🇺🇸 New Year's Day (Observed) & 🇩🇪 Silvester - Closed
 DESCRIPTION:US and German stock markets closed all day
 CATEGORIES:US,DE,Full Day
 TRANSP:TRANSPARENT
@@ -554,7 +554,7 @@ DTSTAMP:20250713T000000Z
 UID:20280703-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Independence Day Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -590,7 +590,7 @@ DTSTAMP:20250713T000000Z
 UID:20281124-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Black Friday - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -689,7 +689,7 @@ DTSTAMP:20250713T000000Z
 UID:20290703-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Independence Day Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -725,7 +725,7 @@ DTSTAMP:20250713T000000Z
 UID:20291123-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Black Friday - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -734,7 +734,7 @@ DTSTAMP:20250713T000000Z
 UID:20291224-us-early@trading-holidays.com
 SUMMARY:🇺🇸 Christmas Eve - Early Close 1PM
 DESCRIPTION:US stock markets close at 1:00 PM ET
-CATEGORIES:US,Full Day
+CATEGORIES:US,Early Close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -773,4 +773,113 @@ DESCRIPTION:German stock markets closed all day
 CATEGORIES:DE,Full Day
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251003
+DTSTAMP:20250713T000000Z
+UID:20251003-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Tag der Deutschen Einheit (German Unity Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281003
+DTSTAMP:20250713T000000Z
+UID:20281003-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Tag der Deutschen Einheit (German Unity Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20291003
+DTSTAMP:20250713T000000Z
+UID:20291003-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Tag der Deutschen Einheit (German Unity Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250529
+DTSTAMP:20250713T000000Z
+UID:20250529-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Christi Himmelfahrt (Ascension Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260514
+DTSTAMP:20250713T000000Z
+UID:20260514-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Christi Himmelfahrt (Ascension Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+DTSTAMP:20250713T000000Z
+UID:20270506-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Christi Himmelfahrt (Ascension Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20280525
+DTSTAMP:20250713T000000Z
+UID:20280525-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Christi Himmelfahrt (Ascension Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290510
+DTSTAMP:20250713T000000Z
+UID:20290510-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Christi Himmelfahrt (Ascension Day) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250609
+DTSTAMP:20250713T000000Z
+UID:20250609-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Pfingstmontag (Whit Monday) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270517
+DTSTAMP:20250713T000000Z
+UID:20270517-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Pfingstmontag (Whit Monday) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20280605
+DTSTAMP:20250713T000000Z
+UID:20280605-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Pfingstmontag (Whit Monday) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290521
+DTSTAMP:20250713T000000Z
+UID:20290521-de-closed@trading-holidays.com
+SUMMARY:🇩🇪 Pfingstmontag (Whit Monday) - Geschlossen
+DESCRIPTION:German stock markets closed all day
+CATEGORIES:DE,Full Day
+TRANSP:TRANSPARENT
+END:VEVENT
+
 END:VCALENDAR
