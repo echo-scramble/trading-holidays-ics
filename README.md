@@ -20,6 +20,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - Country flags (🇺🇸 🇩🇪) for quick visual identification
 - Combined entries for holidays affecting both markets
 - Clear status indicators (Closed, Early Close 1PM, Geschlossen)
+- Clear market type indicators (commodity futures vs. stock markets)
 
 ## Calendar Format
 
@@ -61,6 +62,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - Day before Independence Day
 - Black Friday (day after Thanksgiving)
 - Christmas Eve (only when Christmas falls on a weekday; if Christmas falls on Saturday, Dec 24 is a full holiday)
+- July 2nd when Independence Day falls on Saturday (NYMEX/CME specific)
 
 ### 🇩🇪 German Market Holidays (Xetra/Frankfurt)
 - Neujahr (New Year's Day)
@@ -100,6 +102,13 @@ Holiday dates have been verified against:
 - German holidays that fall on weekends are excluded
 - Early closure information applies to regular trading hours only
 - Some markets may have extended hours with different schedules
+
+## Important Differences
+
+### NYMEX/CME vs NYSE/NASDAQ
+- NYMEX/CME observes July 2nd as early close when July 4th falls on Saturday
+- Early close time is 12:00 PM CT (1:00 PM ET) for NYMEX/CME
+- This calendar tracks commodity futures, not stock market holidays
 
 ## License
 
