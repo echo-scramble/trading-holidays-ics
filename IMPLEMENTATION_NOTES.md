@@ -1,5 +1,20 @@
 # Implementation Notes for Trading Holiday Calendars (NYMEX/CME Focus)
 
+## Version History
+
+### v3.0.0 (2025-01-13)
+- **Major Change**: DE-first ordering for all mixed market events
+- Changed CATEGORIES order from `US,DE` to `DE,US` for all combined events
+- Updated flag order in SUMMARY to consistently show 🇩🇪 first
+- Mixed events now display: "🇩🇪 Heiligabend & 🇺🇸 Christmas Eve (Early 1PM)"
+- Reflects primary German market audience and European market priority
+- Breaking change for systems parsing exact CATEGORIES format
+
+### v2.0.0 (Initial Release)
+- Combined US commodity futures and German stock market holidays
+- 5-year calendar (2025-2029)
+- Comprehensive holiday coverage with early closures
+
 ## Critical Rules Not Obvious from README
 
 ### 1. German Market Holidays - Common Misconceptions
@@ -41,9 +56,9 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:YYYYMMDD           # All-day event format
 DTSTAMP:YYYYMMDDTHHMMSSZ              # Timestamp when created
 UID:YYYYMMDD-xx-xx@trading-holidays.com  # Unique ID
-SUMMARY:🇺🇸 Holiday Name - Status      # Flag + Space + Name + Status
+SUMMARY:🇩🇪 Holiday Name - Status      # Flag + Space + Name + Status (DE-first for mixed)
 DESCRIPTION:Clear description         # What's closed/when
-CATEGORIES:XX,Status                  # US/DE/both + Full Day/Early Close/Mixed
+CATEGORIES:XX,Status                  # DE/US/both + Full Day/Early Close/Mixed (DE-first)
 TRANSP:TRANSPARENT                    # Non-blocking in calendars
 END:VEVENT
 ```
@@ -52,8 +67,8 @@ END:VEVENT
 - `US,Full Day`: US commodity futures markets closed all day
 - `US,Early Close`: US commodity futures markets close at 12 PM CT / 1 PM ET
 - `DE,Full Day`: German stock markets closed all day
-- `US,DE,Full Day`: US futures and German stock markets closed all day
-- `US,DE,Mixed`: Different closure types (e.g., US early, DE full)
+- `DE,US,Full Day`: German stock markets and US futures closed all day (v3.0.0+)
+- `DE,US,Mixed`: Different closure types (e.g., DE full, US early) (v3.0.0+)
 
 ### 7. Timezone Handling
 - All-day events use `VALUE=DATE` (no timezone needed)
