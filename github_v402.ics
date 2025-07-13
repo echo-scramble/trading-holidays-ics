@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Trading Holidays//Calendar v4.0.2//EN
+PRODID:-//Trading Holidays//Calendar v4.0.1//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Trading Holidays 2025-2029
@@ -155,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250505
 DTSTAMP:20250713T230127Z
-UID:20250505-uk-closed@trading-holidays.com
+UID:20250505-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Early May Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -230,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250825
 DTSTAMP:20250713T230127Z
-UID:20250825-uk-closed@trading-holidays.com
+UID:20250825-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Summer Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -294,7 +294,7 @@ UID:20251224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
-CATEGORIES:DE,US,Full Day,Early Close
+CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -440,7 +440,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260504
 DTSTAMP:20250713T230127Z
-UID:20260504-uk-closed@trading-holidays.com
+UID:20260504-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Early May Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -515,7 +515,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260831
 DTSTAMP:20250713T230127Z
-UID:20260831-uk-closed@trading-holidays.com
+UID:20260831-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Summer Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -579,7 +579,7 @@ UID:20261224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
-CATEGORIES:DE,US,Full Day,Early Close
+CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -605,7 +605,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261228
 DTSTAMP:20250713T230127Z
-UID:20261228-uk-closed@trading-holidays.com
+UID:20261228-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇬🇧 2. Weihnachtstag / Boxing Day - Closed
 DESCRIPTION:German stock markets and ICE Futures Europe (Brent) closed all day
@@ -725,7 +725,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270503
 DTSTAMP:20250713T230127Z
-UID:20270503-uk-closed@trading-holidays.com
+UID:20270503-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Early May Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -800,7 +800,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270830
 DTSTAMP:20250713T230127Z
-UID:20270830-uk-closed@trading-holidays.com
+UID:20270830-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Summer Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -905,7 +905,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271227
 DTSTAMP:20250713T230127Z
-UID:20271227-uk-closed@trading-holidays.com
+UID:20271227-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Christmas Day - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -920,7 +920,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271228
 DTSTAMP:20250713T230127Z
-UID:20271228-uk-closed@trading-holidays.com
+UID:20271228-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Boxing Day - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -965,7 +965,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20280103
 DTSTAMP:20250713T230127Z
-UID:20280103-uk-closed@trading-holidays.com
+UID:20280103-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 New Year's Day - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -1115,7 +1115,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20280828
 DTSTAMP:20250713T230127Z
-UID:20280828-uk-closed@trading-holidays.com
+UID:20280828-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Summer Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -1179,7 +1179,7 @@ UID:20281224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
-CATEGORIES:DE,US,Full Day,Early Close
+CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1325,7 +1325,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290507
 DTSTAMP:20250713T230127Z
-UID:20290507-uk-closed@trading-holidays.com
+UID:20290507-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Early May Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -1400,7 +1400,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290827
 DTSTAMP:20250713T230127Z
-UID:20290827-uk-closed@trading-holidays.com
+UID:20290827-ice-uk-closed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇬🇧 Summer Bank Holiday - Closed
 DESCRIPTION:ICE Futures Europe (Brent) closed all day
@@ -1464,7 +1464,7 @@ UID:20291224-de-us-mixed@trading-holidays.com
 SEQUENCE:1
 SUMMARY:🇩🇪🇺🇸 Heiligabend / Christmas Eve - DE Closed, US Early Close 1PM
 DESCRIPTION:German stock markets closed all day. US commodity futures markets close at 12:00 PM CT / 1:00 PM ET
-CATEGORIES:DE,US,Full Day,Early Close
+CATEGORIES:DE,US,Mixed
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY

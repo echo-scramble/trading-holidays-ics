@@ -1,4 +1,4 @@
-# 📅 Trading Holidays Calendar 2025-2029 (v4.0.2)
+# 📅 Trading Holidays Calendar 2025-2029 (v4.0.3)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
