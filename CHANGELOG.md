@@ -5,7 +5,7 @@ All notable changes to the Trading Holidays Calendar will be documented in this 
 ## [4.0.3] - 2025-01-13
 
 ### Fixed
-- Updated PRODID to v4.0.2 (was incorrectly showing v4.0.1)
+- Updated PRODID to v4.0.3 (was incorrectly showing v4.0.1 in v4.0.2)
 - Standardized all UK UIDs from 'ice-uk' to 'uk' for consistency
 - Replaced 'Mixed' category with 'Full Day,Early Close' for combined events
 - Ensured all flag emojis are present in SUMMARY lines
