@@ -2,6 +2,16 @@
 
 All notable changes to the Trading Holidays Calendar will be documented in this file.
 
+## [4.0.1] - 2025-01-13
+
+### Fixed
+- Added missing Tag der Deutschen Einheit (Oct 3, 2027)  
+- Standardized status indicators: "Geschlossen" → "Closed"
+- Fixed "Early Close" → "Early Close 1PM" for consistency
+- Corrected misleading summaries (Christmas Eve/New Year's Eve)
+- Added missing VALARM blocks to Christmas Eve early close events
+- Total events increased from 101 to 102
+
 ## [4.0.0] - 2025-07-13
 - Added: ICE Futures Europe (UK) market support integrated with existing events
 - Added: Europe/London timezone definition for BST/GMT transitions
