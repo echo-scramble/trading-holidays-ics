@@ -153,6 +153,14 @@ Holiday dates have been verified against:
 - UK bank holiday patterns for 2026-2029
 - Easter date calculations for moveable holidays
 
+### External Validation (v4.0.6)
+All events have been independently verified against official sources:
+- ✅ **Xetra/Börse Frankfurt**: All 8 trading holidays correctly included
+- ✅ **ICE Futures Europe**: All UK bank holidays (England & Wales) present
+- ✅ **CME/NYMEX**: All holidays and early closures (1 PM ET) accounted for
+- ✅ **Weekend Policy**: No Saturday/Sunday events (91 weekday-only events)
+- ✅ **Observance Rules**: Correctly shifted holidays (e.g., July 4, 2026 → July 6)
+
 ## Notes
 
 - When US holidays fall on weekends, they are observed on the closest weekday (Friday or Monday)
@@ -166,6 +174,15 @@ This calendar excludes ALL holidays that naturally fall on weekends (Saturday/Su
 - German holidays that don't shift (e.g., Tag der Arbeit on Saturday)
 - US/UK holidays before their weekday observance shift
 - Any combined holiday events falling on weekends
+
+## Limitations
+
+### Not Included
+- **Ad-hoc early closures**: Additional early closes announced with short notice
+- **Special holidays**: Unplanned events (royal occasions, national mourning)
+- **Extended hours**: This calendar covers regular trading hours only
+
+These would be added in minor releases (v4.0.x) as they are announced.
 
 ## Important Differences
 
