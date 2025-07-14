@@ -143,34 +143,24 @@ When multiple markets are closed on the same day, entries are combined:
 - **Event Count**: 91 events (2025-2029)
 - **Transparency**: All events marked as TRANSPARENT (non-blocking)
 
-## Data Sources
+## Data Sources and Validation
 
-Holiday dates have been verified against:
-- Official NYMEX/CME holiday announcements (2025-2027)
-- Historical US federal holiday patterns (2028-2029)
-- German public holiday calendar
-- ICE Futures Europe Circular 24/132 (20 November 2024) for 2025
-- UK bank holiday patterns for 2026-2029
-- Easter date calculations for moveable holidays
+All holiday dates have been independently verified against official exchange sources. The calendar accurately reflects:
 
-### External Validation (v4.0.6)
+- **Xetra / Börse Frankfurt**: All 8 trading holidays for German markets
+- **ICE Futures Europe**: All UK bank holidays (England & Wales) affecting Brent trading
+- **CME / NYMEX**: All US energy market holidays and early closures (1 PM ET)
+- **Weekend Policy**: Only weekday events included (91 events total)
+- **Holiday Observance**: Proper shifting when holidays fall on weekends
 
-All events have been independently verified against official sources:
+### Primary Sources
 
-- ✅ **Xetra / Börse Frankfurt** – all 8 trading holidays correctly included  
-- ✅ **ICE Futures Europe** – all UK bank holidays (England & Wales) present  
-- ✅ **CME / NYMEX (Energy)** – all holidays *and* early closures (1 PM ET) accounted for  
-- ✅ **Weekend Policy** – no Saturday/Sunday events (91 weekday-only events)  
-- ✅ **Observance Rules** – correctly shifted holidays (e.g. July 4 2026 → July 6)
-
-#### Sources
-
-| Market | Primary Source | Notes |
+| Market | Official Source | Coverage |
 | --- | --- | --- |
-| Xetra / Börse Frankfurt (DE) | [Deutsche Börse – Trading calendar & hours](https://www.xetra.com/xetra-en/Trading-calendar-and-trading-hours-22048) | Lists all DE trading holidays 2025-29 |
-| ICE Futures Europe (UK) | [GOV.UK bank-holidays.json](https://www.gov.uk/bank-holidays.json) | Official UK bank-holiday data adopted by ICE |
-|  | [ICE – IFEU Trading Schedule (PDF)](https://www.theice.com/publicdocs/Trading_Schedule.pdf) | Holiday hours & rare exceptions |
-| CME / NYMEX (US) | [CME Group – Holiday & Trading Hours](https://www.cmegroup.com/trading-hours.html) | US energy-market holidays and 1 PM early-close rules |
+| Xetra / Börse Frankfurt | [Deutsche Börse Trading Calendar](https://www.xetra.com/xetra-en/Trading-calendar-and-trading-hours-22048) | 2025-2029 trading holidays |
+| ICE Futures Europe | [GOV.UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | UK bank holiday data |
+|  | [ICE Trading Schedule](https://www.theice.com/publicdocs/Trading_Schedule.pdf) | Market-specific hours |
+| CME / NYMEX | [CME Group Holiday Calendar](https://www.cmegroup.com/trading-hours.html) | Energy market holidays & early closes |
 
 ## Notes
 
