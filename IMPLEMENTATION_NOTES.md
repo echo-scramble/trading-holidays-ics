@@ -2,6 +2,13 @@
 
 ## Version History
 
+### v4.0.6 (2025-01-14)
+- **Technical Fix**: Improved ICS file formatting for RFC 5545 compliance
+- Added proper newlines between END:VEVENT and BEGIN:VEVENT blocks
+- Added SEQUENCE:1 property to all events (was missing from some)
+- Ensures compatibility with strict iCalendar parsers
+- No content changes, pure formatting improvements
+
 ### v4.0.5 (2025-01-14)
 - **Policy Change**: Removed all weekend holiday entries
 - Removed 6 events that fall on Saturday/Sunday
@@ -94,9 +101,10 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:YYYYMMDD           # All-day event format
 DTSTAMP:YYYYMMDDTHHMMSSZ              # Timestamp when created
 UID:YYYYMMDD-xx-xx@trading-holidays.com  # Unique ID
+SEQUENCE:1                            # Update sequence (v4.0.6+: required for all)
 SUMMARY:🇩🇪 Holiday Name - Status      # Flag + Space + Name + Status (DE-first for mixed)
 DESCRIPTION:Clear description         # What's closed/when
-CATEGORIES:XX,Status                  # DE/US/both + Full Day/Early Close/Mixed (DE-first)
+CATEGORIES:XX,Status                  # DE/US/both + Full Day/Early Close (DE-first)
 TRANSP:TRANSPARENT                    # Non-blocking in calendars
 BEGIN:VALARM                          # Notification component (v3.5.0+)
 ACTION:DISPLAY
