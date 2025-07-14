@@ -145,7 +145,7 @@ When multiple markets are closed on the same day, entries are combined:
 
 ## Data Sources and Validation
 
-All holiday dates have been independently verified against official exchange sources. The calendar accurately reflects:
+Holiday dates have been compiled from official exchange sources and aim to reflect:
 
 - **Xetra / Börse Frankfurt**: All 8 trading holidays for German markets
 - **ICE Futures Europe**: All UK bank holidays (England & Wales) affecting Brent trading
