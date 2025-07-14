@@ -110,9 +110,9 @@ END:VEVENT
 - `US,Full Day`: US commodity futures markets closed all day
 - `US,Early Close`: US commodity futures markets close at 12 PM CT / 1 PM ET
 - `DE,Full Day`: German stock markets closed all day
-- `ICE - UK,Full Day`: ICE Futures Europe (Brent) closed all day
-- `DE,US,Full Day`: German stock markets and US futures closed all day (v3.0.0+)
-- `DE,US,Mixed`: Different closure types (e.g., DE full, US early) (v3.0.0+)
+- `UK,Full Day`: ICE Futures Europe (Brent) closed all day
+- `DE,UK,US,Full Day`: All three markets closed all day
+- `DE,US,Full Day,Early Close`: Different closure types (e.g., DE full, US early)
 
 ### 7. Timezone Handling
 - All-day events use `VALUE=DATE` (no timezone needed)
