@@ -2,6 +2,18 @@
 
 All notable changes to the Trading Holidays Calendar will be documented in this file.
 
+## [4.0.6] - 2025-01-14
+
+### Fixed
+- Improved ICS file formatting for RFC 5545 compliance
+- Added proper newlines between END:VEVENT and BEGIN:VEVENT blocks
+- Added SEQUENCE:1 to all events (was missing from some)
+
+### Technical Details
+- Addresses formatting issue identified in external review
+- Ensures stricter parsers can properly read the calendar file
+- All 91 events now have consistent SEQUENCE property
+
 ## [4.0.5] - 2025-01-14
 
 ### Changed

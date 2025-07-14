@@ -1,4 +1,4 @@
-# 📅 Trading Holidays Calendar 2025-2029 (v4.0.5)
+# 📅 Trading Holidays Calendar 2025-2029 (v4.0.6)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
@@ -71,7 +71,7 @@ All events now include a built-in notification at **8:30 AM local time** on the 
 https://raw.githubusercontent.com/echo-scramble/trading-holidays-ics/main/Trading-Holidays-2025-2029-Combined.ics
 ```
 
-🚀 **Latest Release:** [Download v4.0.5](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
+🚀 **Latest Release:** [Download v4.0.6](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
 ## Usage
 
