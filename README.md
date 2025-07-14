@@ -1,8 +1,8 @@
-# 📅 Trading Holidays Calendar 2025-2029 (v4.0.4)
+# 📅 Trading Holidays Calendar 2025-2029 (v4.0.5)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Calendar Format](https://img.shields.io/badge/format-iCalendar%202.0-green.svg)
-![Events](https://img.shields.io/badge/events-97-orange.svg)
+![Events](https://img.shields.io/badge/events-91-orange.svg)
 ![Markets](https://img.shields.io/badge/markets-NYMEX%20%7C%20CME%20%7C%20Xetra%20%7C%20ICE-red.svg)
 [![GitHub Release](https://img.shields.io/github/v/release/echo-scramble/trading-holidays-ics)](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
@@ -15,7 +15,7 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - All official trading holidays for Xetra/Frankfurt Stock Exchange
 - All official trading holidays for ICE Futures Europe (Brent crude oil)
 - Early closure days (US futures close at 12:00 PM CT / 1:00 PM ET)
-- No weekend holidays included (markets are closed anyway)
+- No weekend holidays included (markets are closed anyway, so no calendar entries needed)
 
 ### 🌍 International Compatibility
 - Full timezone support (America/New_York, Europe/Berlin, and Europe/London)
@@ -71,7 +71,7 @@ All events now include a built-in notification at **8:30 AM local time** on the 
 https://raw.githubusercontent.com/echo-scramble/trading-holidays-ics/main/Trading-Holidays-2025-2029-Combined.ics
 ```
 
-🚀 **Latest Release:** [Download v4.0.0](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
+🚀 **Latest Release:** [Download v4.0.5](https://github.com/echo-scramble/trading-holidays-ics/releases/latest)
 
 ## Usage
 
@@ -140,7 +140,7 @@ When multiple markets are closed on the same day, entries are combined:
 - **File Format**: iCalendar 2.0 (RFC 5545 compliant)
 - **Character Encoding**: UTF-8
 - **Timezone Definitions**: Includes VTIMEZONE components with DST rules
-- **Event Count**: 97 events (2025-2029)
+- **Event Count**: 91 events (2025-2029)
 - **Transparency**: All events marked as TRANSPARENT (non-blocking)
 
 ## Data Sources
@@ -156,10 +156,16 @@ Holiday dates have been verified against:
 ## Notes
 
 - When US holidays fall on weekends, they are observed on the closest weekday (Friday or Monday)
-- German holidays that fall on weekends are excluded
+- German holidays that fall on weekends are excluded from this calendar
 - UK holidays follow England & Wales bank holiday rules (weekend holidays move to Monday)
 - Early closure information applies to regular trading hours only
 - Some markets may have extended hours with different schedules
+
+### Weekend Holiday Policy
+This calendar excludes ALL holidays that naturally fall on weekends (Saturday/Sunday), regardless of market. Since trading markets are closed on weekends anyway, these entries provide no value and would only clutter the calendar. This includes:
+- German holidays that don't shift (e.g., Tag der Arbeit on Saturday)
+- US/UK holidays before their weekday observance shift
+- Any combined holiday events falling on weekends
 
 ## Important Differences
 

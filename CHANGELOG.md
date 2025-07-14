@@ -2,6 +2,25 @@
 
 All notable changes to the Trading Holidays Calendar will be documented in this file.
 
+## [4.0.5] - 2025-01-14
+
+### Changed
+- **REMOVED** all weekend holiday entries (6 events removed)
+- Total events decreased from 97 to 91
+- Updated README with explicit weekend holiday policy
+- Added comprehensive weekend handling documentation
+
+### Removed
+- 🇩🇪 Tag der Arbeit (May 1, 2027 - Saturday)
+- 🇩🇪 1. Weihnachtstag (Dec 25, 2027 - Saturday)  
+- 🇩🇪 2. Weihnachtstag (Dec 26, 2027 - Sunday)
+- 🇩🇪 Neujahr (Jan 1, 2028 - Saturday)
+- 🇩🇪🇺🇸 Heiligabend / Christmas Eve (Dec 24, 2028 - Sunday)
+- 🇩🇪 Silvester (Dec 31, 2028 - Sunday)
+
+### Rationale
+Markets are closed on weekends regardless of holidays. Weekend entries provide no trading value and only clutter the calendar.
+
 ## [4.0.4] - 2025-01-13
 
 ### Fixed

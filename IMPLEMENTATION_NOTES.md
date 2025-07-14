@@ -2,6 +2,13 @@
 
 ## Version History
 
+### v4.0.5 (2025-01-14)
+- **Policy Change**: Removed all weekend holiday entries
+- Removed 6 events that fall on Saturday/Sunday
+- Total events decreased from 97 to 91
+- Updated README with explicit weekend holiday policy
+- Rationale: Markets closed on weekends anyway, entries provide no value
+
 ### v4.0.0 (2025-07-13)
 - **Major Feature**: Added ICE Futures Europe (UK) market support
 - Properly integrated UK holidays with existing US/DE events
@@ -121,10 +128,32 @@ END:VEVENT
 - **Compatibility**: Works with Apple Calendar, Google Calendar, Outlook
 - **Important**: Do NOT use negative trigger (e.g., `-PT15H30M`) as it calculates from day before
 
-### 9. Data Validation Checklist
+### 9. Weekend Holiday Policy (v4.0.5+)
+**STRICT RULE**: NO weekend entries in the calendar, regardless of market.
+
+**Rationale**: Markets are closed on weekends anyway, so weekend holiday entries:
+- Provide no trading value
+- Clutter the calendar unnecessarily
+- May confuse users about actual trading days
+
+**What gets excluded**:
+- German holidays that naturally fall on weekends (they don't shift)
+- US/UK holidays BEFORE their observance shift is applied
+- Any combined events falling on weekends
+
+**Examples of excluded entries**:
+- Tag der Arbeit when May 1 falls on Saturday
+- Heiligabend when Dec 24 falls on Sunday (even with US early close)
+- 1. Weihnachtstag when Dec 25 falls on Saturday
+
+**What gets included**:
+- The shifted observance dates (e.g., Monday for Sunday holidays)
+- All holidays falling Monday-Friday
+
+### 10. Data Validation Checklist
 Before release, verify:
 1. Total event count matches documentation
-2. No events on weekends (use `date -d YYYYMMDD` to check)
+2. **NO events on weekends** (critical for v4.0.5+)
 3. No duplicate events on same date (check thoroughly - same date should appear only once)
 4. All German holidays are in the official 8-holiday list
 5. US observance rules correctly applied
@@ -132,26 +161,26 @@ Before release, verify:
 7. July 3rd early close when July 4th falls on weekday; July 2nd early close when July 4th falls on Saturday (NYMEX/CME specific)
 8. Consistent handling of "mixed" closure days (e.g., Christmas Eve)
 
-### 9. Easter Calculation
+### 11. Easter Calculation
 Easter moves each year. Key dates:
 - Good Friday: 2 days before Easter
 - Easter Monday: 1 day after Easter
 - Ascension Day: 39 days after Easter (NOT a market holiday!)
 - Whit Monday: 50 days after Easter (NOT a market holiday!)
 
-### 10. NYMEX/CME Specific Rules
+### 12. NYMEX/CME Specific Rules
 - July 2nd is an early close when July 4th falls on Saturday (differs from NYSE)
 - Early close is at 12:00 PM CT (Central Time) / 1:00 PM ET
 - Commodity futures markets may have different holiday rules than equity markets
 
-### 11. Mixed Market Types
+### 13. Mixed Market Types
 - This calendar combines commodity futures (US), stock markets (German), and energy futures (UK)
 - Always specify market type in descriptions to avoid confusion
 - US: "commodity futures markets"
 - DE: "stock markets"
 - UK: "ICE Futures Europe (Brent)"
 
-### 12. Testing Commands
+### 14. Testing Commands
 ```bash
 # Count events
 grep -c "BEGIN:VEVENT" calendar.ics
