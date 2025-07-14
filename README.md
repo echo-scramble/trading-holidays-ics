@@ -42,11 +42,11 @@ A comprehensive iCalendar (.ics) file containing all trading holidays and early 
 - US holidays: `CATEGORIES:US,Full Day`
 - US early closures: `CATEGORIES:US,Early Close`
 - German holidays: `CATEGORIES:DE,Full Day`
-- UK holidays: `CATEGORIES:ICE - UK,Full Day`
-- Combined holidays: `CATEGORIES:DE,US,Full Day` (v3.0.0: DE-first)
-- Mixed closures: `CATEGORIES:DE,US,Mixed` (e.g., Christmas Eve: DE closed, US early)
+- UK holidays: `CATEGORIES:UK,Full Day`
+- Combined holidays: `CATEGORIES:DE,UK,US,Full Day` (example with all three markets)
+- Mixed closures: `CATEGORIES:DE,US,Full Day,Early Close` (e.g., Christmas Eve: DE closed, US early)
 
-## 🔔 Notifications (New in v3.5.1)
+## 🔔 Notifications
 
 All events now include a built-in notification at **8:30 AM local time** on the holiday. 
 

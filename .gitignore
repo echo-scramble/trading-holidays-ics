@@ -1,14 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
-*.egg-info/
+# Note: Python entries kept for potential future scripts
 
 # IDEs
 .vscode/
